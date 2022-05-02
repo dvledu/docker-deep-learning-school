@@ -19,7 +19,7 @@ docker build . -t deep-learning-school
 > `.` точка обозначает что `Dokerfile` на основе которого соберается образ лежит в той же папке в которой мы сейчас находимся.
 4. Запускаем полученный контейнер:
 ``` bash
-docker run -v $(pwd):/deep-learning-school -p 8888:8888 open-ml-course
+docker run -v $(pwd):/deep-learning-school -p 8888:8888 deep-learning-school
 ```
 >`-v $(pwd):/deep-learning-school` синхронизирует локальную папку в которой вы находитесь `$(pwd)` с папкой `/deep-learning-school` внутри контейнера
 

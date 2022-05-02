@@ -1,0 +1,16 @@
+# environment.yaml
+
+name: base
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - jupyter
+  - numpy
+  - pandas
+  - pip
+  - python=3.9
+  - pytorch:torchvision 
+  - pytorch:torchaudio 
+  - pytorch:cpuonly
+  - pytorch:pytorch=1.11

@@ -1,7 +1,5 @@
 # docker-deep-learning-school
 
-# open-ml-course
-
 ## Настройка окружения с помощью Docker
 
 1. Склонировать данный репозиторий:
